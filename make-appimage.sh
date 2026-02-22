@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://github.com/ioquake/ioq3/raw/refs/heads/main/misc/quake3.svg
 export DESKTOP=/usr/share/applications/quake3.desktop
+export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/ioquake3 /usr/bin/ioq3ded
