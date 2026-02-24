@@ -1,4 +1,4 @@
 #!/bin/false
-dir=${XDG_CONFIG_HOME:-~/.config}/Quake3
+dir=${XDG_DATA_HOME:-~/.local/share}/Quake3
 mkdir -p "$dir"
 cd "$dir"
