@@ -1,6 +1,5 @@
 #!/bin/false
 dir=${XDG_DATA_HOME:-~/.local/share}/Quake3
-mkdir -p "$dir"
-cd "$dir"
+mkdir -p "$dir"/baseq3
 
 exec "$APPDIR"/bin/ioquake3 +set fs_basepath "$DIR" +set fs_homepath "$DIR" "$@"
